@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(109, 109, 109);
+    border: 1px;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    margin: 100px auto;
+    
+    width: 300px;
+    background-color: rgb(44, 44, 44);
+
+    border-radius: 10px;
+    border: 1px solid rgb(188, 188, 188);
+
+    padding: 50px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 10px 20px rgb(51, 51, 51);
+}
+
+.insert {
+    padding: 15px;
+    width: 80%;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 5px;
+
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.insert::placeholder {
+    color: rgb(197, 197, 197);
+}
+
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: -10px;
+}
+
+.login {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(11, 11, 11);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    color: white;
+}
+
+.login:hover {
+    width: 71%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(143, 143, 143);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    transition: ease-in-out 0.5s;
+    color: rgb(0, 0, 0);
+}
+
+.homepage {
+    margin-top: -10px;
+    font-size: 14px;
+
+    text-decoration: none;
+    color: rgb(0, 95, 229);
+}
+
+label {
+    color: rgb(255, 255, 255);
+}
+
+.popup {
+    position: fixed;
+    bottom: 20px;
+    left: 25px;
+    border-radius: 5px;
+    z-index: 999;
+    text-align: right;
+}
+
+.cv {
+    background-color: white;
+    padding: 5px;
+
+    border-radius: 100px;
+    padding: 15px 22px 0px 200px;
+
+    color: black;
+    border: solid 1px rgb(104, 104, 104);
+
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    h1 {
+        color: rgb(255, 255, 255);
+    }
+    
+    .container {
+        margin: 100px auto;
+        
+        width: 400px;
+        background-color: rgb(44, 44, 44);
+    
+        border-radius: 10px;
+        border: 1px solid rgb(188, 188, 188);
+    
+        padding: 50px;
+        padding-bottom: 20px;
+    
+        display: flex;
+        flex-direction: column;
+    
+        box-shadow: 0px 10px 20px rgb(51, 51, 51);
+    }
+    
+    .insert {
+        padding: 15px;
+        width: 80%;
+    
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+    
+        border: 1px solid rgb(169, 169, 169);
+        border-radius: 5px;
+    }
+    
+    hr {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        margin-bottom: -10px;
+    }
+    
+    .login {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    
+    .login:hover {
+        width: 71%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        background-color: gray;
+        padding: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+    
+        transition: ease-in-out 0.5s;
+        color: rgb(0, 0, 0);
+    }
+    
+    .homepage {
+        margin-top: -10px;
+        font-size: 14px;
+    
+        text-decoration: none;
+        color: rgb(0, 95, 229);
+    }
+    
+    label {
+        color: rgb(255, 255, 255);
+    }
+
+    .popup {
+        position: fixed;
+        bottom: 20px;
+        left: 25px;
+        border-radius: 5px;
+        z-index: 999;
+        text-align: right;
+    }
+    
+    .cv {
+        background-color: white;
+        padding: 5px;
+    
+        border-radius: 100px;
+        padding: 15px 22px 0px 200px;
+    
+        color: black;
+        border: solid 1px rgb(161, 161, 161);
+    
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}

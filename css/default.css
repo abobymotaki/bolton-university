@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    min-width: 400px;
+    background-color: rgb(211, 211, 211);
+
+    border: 10px solid red;
+}
+
+.massive-container {
+    width: 100%;
+    min-width: 325px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}

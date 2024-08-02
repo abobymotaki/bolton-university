@@ -1,0 +1,13 @@
+.massive-container {
+    background-color: #333333;
+}
+
+.main {
+    width: 80%;
+
+    padding: 60px 0px;
+    text-align: justify;
+    font-size: 17px;
+    color: rgb(228, 228, 228);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

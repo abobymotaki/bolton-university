@@ -1,0 +1,115 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.frame-1 {
+    background-image: url(pictures/events.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+    min-height: 200px;
+    height: 100%;
+    max-height: 350px;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background h1 {
+    color: white;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: auto;
+
+    padding: 50px 40px;
+    background-color: rgb(0, 209, 209);
+}
+
+.card {
+    border: 1px solid #adadad;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+
+    min-width: 300px;
+    max-width: 320px;
+    min-height: 300px;
+}
+
+.card-img {
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+
+    margin: 20px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.timeline h1 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .timeline {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        overflow-x: auto;
+    
+        padding: 25px 20px;
+        background-color: rgb(0, 209, 209);
+    }
+    
+    .card {
+        border: 1px solid #adadad;
+        border-radius: 6px;
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(233, 233, 233);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    
+        min-width: 270px;
+        max-width: 300px;
+        min-height: 300px;
+    }
+    
+    .card-img {
+        width: 230px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    
+        margin: 20px;
+    }
+    
+    .card h3 {
+        margin: 10px 0;
+    }
+    
+    .timeline h1 {
+        font-weight: bolder;
+        font-size: 24px;
+    }
+}
